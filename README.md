@@ -39,3 +39,4 @@
 [实测榜单](https://www.okcodex.com/agents) · [需求雷达](https://www.okcodex.com/radar) · [实测基准](https://www.okcodex.com/benchmarks) · [评分方法论](https://www.okcodex.com/blog/codex-score) · [开放数据集](https://www.okcodex.com/dataset)。
 
 数据持续更新，权威源以 <https://www.okcodex.com/dataset> 为准。
+GitHub 镜像：<https://github.com/cnmitme/chinese-ai-agent-dataset>。

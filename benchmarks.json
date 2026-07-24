@@ -7,7 +7,7 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "OKCodex (https://www.okcodex.com)",
-    "generated_at": "2026-07-24T12:11:57.509838+00:00",
+    "generated_at": "2026-07-24T12:17:14.531408+00:00",
     "count": 10,
     "description": "OKCodex 中文 AI Agent 实测基准：固定任务、固定机器判定标准、保留每次运行；仅公开经过人工逐项核验的真实结果，无数据时不推算、不补写成绩。结果字段含成功/失败、评分（0-100）、延迟、Token、成本（¥）与核验时间。",
     "benchmarks_page": "https://www.okcodex.com/benchmarks",
