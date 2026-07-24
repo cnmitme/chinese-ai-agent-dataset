@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "name": "中文 AI Agent 实测基准数据集（已人工核验）",
+    "publisher": "OKCodex / 好码未来",
+    "source": "https://www.okcodex.com",
+    "dataset_page": "https://www.okcodex.com/dataset",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "OKCodex (https://www.okcodex.com)",
+    "generated_at": "2026-07-24T12:11:57.509838+00:00",
+    "count": 10,
+    "description": "OKCodex 中文 AI Agent 实测基准：固定任务、固定机器判定标准、保留每次运行；仅公开经过人工逐项核验的真实结果，无数据时不推算、不补写成绩。结果字段含成功/失败、评分（0-100）、延迟、Token、成本（¥）与核验时间。",
+    "benchmarks_page": "https://www.okcodex.com/benchmarks",
+    "task_count": 10
+  },
+  "tasks": [
+    {
+      "slug": "zh-longform-summary",
+      "title": "中文长文事实摘要",
+      "category": "阅读理解",
+      "description": "将一篇含数字、时间和专有名词的中文长文压缩为结构化摘要。",
+      "evaluator_type": "json_schema_and_fact_match"
+    },
+    {
+      "slug": "zh-customer-service-classification",
+      "title": "中文客服工单分类",
+      "category": "业务自动化",
+      "description": "将多轮客服对话分类并提取优先级、诉求和下一步动作。",
+      "evaluator_type": "exact_label_and_json_schema"
+    },
+    {
+      "slug": "zh-contract-risk-extraction",
+      "title": "中文合同风险提取",
+      "category": "企业文档",
+      "description": "从示例合同中定位付款、违约、续约和数据条款风险。",
+      "evaluator_type": "reference_span_match"
+    },
+    {
+      "slug": "zh-spreadsheet-formula-repair",
+      "title": "表格公式诊断与修复",
+      "category": "办公效率",
+      "description": "识别一组表格公式错误并输出可执行修复方案。",
+      "evaluator_type": "exact_formula_match"
+    },
+    {
+      "slug": "zh-python-bugfix",
+      "title": "Python 缺陷修复",
+      "category": "编程",
+      "description": "根据中文需求修复一个带测试的 Python 缺陷。",
+      "evaluator_type": "unit_tests"
+    },
+    {
+      "slug": "zh-sql-analysis",
+      "title": "中文需求转 SQL 分析",
+      "category": "数据分析",
+      "description": "把中文业务问题转换为安全、可执行且结果正确的 SQL。",
+      "evaluator_type": "result_set_match"
+    },
+    {
+      "slug": "zh-web-research-citations",
+      "title": "中文网络研究与引用",
+      "category": "研究",
+      "description": "针对一个时效性问题检索多个来源并生成可核验结论。",
+      "evaluator_type": "citation_and_claim_check"
+    },
+    {
+      "slug": "zh-marketing-brief",
+      "title": "中文营销简报生成",
+      "category": "内容创作",
+      "description": "根据品牌约束生成渠道化营销简报并避免添加未提供的产品事实。",
+      "evaluator_type": "constraint_check"
+    },
+    {
+      "slug": "zh-meeting-action-items",
+      "title": "中文会议行动项提取",
+      "category": "协作",
+      "description": "从含口语和插话的会议记录中提取负责人、截止时间和行动项。",
+      "evaluator_type": "reference_tuple_match"
+    },
+    {
+      "slug": "zh-multistep-agent-task",
+      "title": "多步骤 Agent 任务规划",
+      "category": "智能体",
+      "description": "在工具权限约束下完成研究、计算、校验和结构化交付。",
+      "evaluator_type": "tool_trace_and_artifact_check"
+    }
+  ],
+  "results": [
+    {
+      "task_slug": "zh-multistep-agent-task",
+      "task_title": "多步骤 Agent 任务规划",
+      "agent_slug": "deepseek-v3",
+      "agent_canonical": "https://www.okcodex.com/agents/deepseek-v3",
+      "model_name": "deepseek",
+      "model_version": "deepseek-v4-flash",
+      "outcome": "passed",
+      "score": 100.0,
+      "latency_ms": 3652,
+      "total_tokens": 751,
+      "cost_cny": 0.0012,
+      "evaluator_version": "generic-benchmark-evaluator.v1",
+      "verified_at": "2026-07-12T05:08:08.491738+00:00",
+      "completed_at": "2026-07-12T05:06:56.901195+00:00"
+    },
+    {
+      "task_slug": "zh-contract-risk-extraction",
+      "task_title": "中文合同风险提取",
+      "agent_slug": "deepseek-v3",
+      "agent_canonical": "https://www.okcodex.com/agents/deepseek-v3",
+      "model_name": "deepseek",
+      "model_version": "deepseek-v4-flash",
+      "outcome": "passed",
+      "score": 100.0,
+      "latency_ms": 2861,
+      "total_tokens": 403,
+      "cost_cny": 0.0005,
+      "evaluator_version": "generic-benchmark-evaluator.v1",
+      "verified_at": "2026-07-12T05:08:07.224055+00:00",
+      "completed_at": "2026-07-12T05:05:48.863824+00:00"
+    },
+    {
+      "task_slug": "zh-web-research-citations",
+      "task_title": "中文网络研究与引用",
+      "agent_slug": "deepseek-v3",
+      "agent_canonical": "https://www.okcodex.com/agents/deepseek-v3",
+      "model_name": "deepseek",
+      "model_version": "deepseek-v4-flash",
+      "outcome": "passed",
+      "score": 100.0,
+      "latency_ms": 2815,
+      "total_tokens": 518,
+      "cost_cny": 0.0007,
+      "evaluator_version": "generic-benchmark-evaluator.v1",
+      "verified_at": "2026-07-12T05:08:05.728348+00:00",
+      "completed_at": "2026-07-12T05:04:20.965261+00:00"
+    },
+    {
+      "task_slug": "zh-spreadsheet-formula-repair",
+      "task_title": "表格公式诊断与修复",
+      "agent_slug": "deepseek-v3",
+      "agent_canonical": "https://www.okcodex.com/agents/deepseek-v3",
+      "model_name": "deepseek",
+      "model_version": "deepseek-v4-flash",
+      "outcome": "passed",
+      "score": 100.0,
+      "latency_ms": 2357,
+      "total_tokens": 403,
+      "cost_cny": 0.0005,
+      "evaluator_version": "generic-benchmark-evaluator.v1",
+      "verified_at": "2026-07-12T05:08:04.590565+00:00",
+      "completed_at": "2026-07-12T05:04:16.804766+00:00"
+    },
+    {
+      "task_slug": "zh-meeting-action-items",
+      "task_title": "中文会议行动项提取",
+      "agent_slug": "deepseek-v3",
+      "agent_canonical": "https://www.okcodex.com/agents/deepseek-v3",
+      "model_name": "deepseek",
+      "model_version": "deepseek-v4-flash",
+      "outcome": "passed",
+      "score": 100.0,
+      "latency_ms": 1387,
+      "total_tokens": 249,
+      "cost_cny": 0.0003,
+      "evaluator_version": "generic-benchmark-evaluator.v1",
+      "verified_at": "2026-07-12T05:07:32.302196+00:00",
+      "completed_at": "2026-07-12T04:59:56.792036+00:00"
+    },
+    {
+      "task_slug": "zh-marketing-brief",
+      "task_title": "中文营销简报生成",
+      "agent_slug": "deepseek-v3",
+      "agent_canonical": "https://www.okcodex.com/agents/deepseek-v3",
+      "model_name": "deepseek",
+      "model_version": "deepseek-v4-flash",
+      "outcome": "passed",
+      "score": 100.0,
+      "latency_ms": 4419,
+      "total_tokens": 588,
+      "cost_cny": 0.0009,
+      "evaluator_version": "generic-benchmark-evaluator.v1",
+      "verified_at": "2026-07-12T05:07:31.067378+00:00",
+      "completed_at": "2026-07-12T04:59:53.323529+00:00"
+    },
+    {
+      "task_slug": "zh-sql-analysis",
+      "task_title": "中文需求转 SQL 分析",
+      "agent_slug": "deepseek-v3",
+      "agent_canonical": "https://www.okcodex.com/agents/deepseek-v3",
+      "model_name": "deepseek",
+      "model_version": "deepseek-v4-flash",
+      "outcome": "passed",
+      "score": 100.0,
+      "latency_ms": 1051,
+      "total_tokens": 189,
+      "cost_cny": 0.0001,
+      "evaluator_version": "generic-benchmark-evaluator.v1",
+      "verified_at": "2026-07-12T05:07:29.734806+00:00",
+      "completed_at": "2026-07-12T04:59:42.105979+00:00"
+    },
+    {
+      "task_slug": "zh-python-bugfix",
+      "task_title": "Python 缺陷修复",
+      "agent_slug": "deepseek-v3",
+      "agent_canonical": "https://www.okcodex.com/agents/deepseek-v3",
+      "model_name": "deepseek",
+      "model_version": "deepseek-v4-flash",
+      "outcome": "passed",
+      "score": 100.0,
+      "latency_ms": 1485,
+      "total_tokens": 252,
+      "cost_cny": 0.0002,
+      "evaluator_version": "generic-benchmark-evaluator.v1",
+      "verified_at": "2026-07-12T05:07:26.232675+00:00",
+      "completed_at": "2026-07-12T04:59:39.607855+00:00"
+    },
+    {
+      "task_slug": "zh-customer-service-classification",
+      "task_title": "中文客服工单分类",
+      "agent_slug": "deepseek-v3",
+      "agent_canonical": "https://www.okcodex.com/agents/deepseek-v3",
+      "model_name": "deepseek",
+      "model_version": "deepseek-v4-flash",
+      "outcome": "passed",
+      "score": 100.0,
+      "latency_ms": 994,
+      "total_tokens": 214,
+      "cost_cny": 0.0001,
+      "evaluator_version": "generic-benchmark-evaluator.v1",
+      "verified_at": "2026-07-12T05:07:23.802095+00:00",
+      "completed_at": "2026-07-12T04:59:26.260894+00:00"
+    },
+    {
+      "task_slug": "zh-longform-summary",
+      "task_title": "中文长文事实摘要",
+      "agent_slug": "deepseek-v3",
+      "agent_canonical": "https://www.okcodex.com/agents/deepseek-v3",
+      "model_name": "deepseek",
+      "model_version": "deepseek-v4-flash",
+      "outcome": "passed",
+      "score": 100.0,
+      "latency_ms": 4672,
+      "total_tokens": 1041,
+      "cost_cny": 0.0014,
+      "evaluator_version": "zh-longform-summary-evaluator.v1",
+      "verified_at": "2026-07-12T04:34:26.654291+00:00",
+      "completed_at": "2026-07-12T04:32:41.662505+00:00"
+    }
+  ]
+}

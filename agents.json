@@ -1,0 +1,1513 @@
+{
+  "meta": {
+    "name": "中文 AI Agent 实测开放数据集",
+    "publisher": "OKCodex / 好码未来",
+    "source": "https://www.okcodex.com",
+    "dataset_page": "https://www.okcodex.com/dataset",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "OKCodex (https://www.okcodex.com)",
+    "generated_at": "2026-07-24T12:11:56.004584+00:00",
+    "count": 48,
+    "description": "OKCodex 策展的中文 AI Agent 目录与编辑实测评分：好码评分（Codex Score，0-100，四维：实用性/手艺/可靠性/性价比）+ 编辑实测评分（1-5，五维：任务完成/输出质量/响应速度/中文优化/性价比，含逐维理由、适合/不适合、出处）。",
+    "reviewed_count": 1
+  },
+  "agents": [
+    {
+      "slug": "deepseek-v3",
+      "name": "DeepSeek-V4",
+      "name_en": "DeepSeek Chat",
+      "tagline": "性价比天花板：中文理解第一，原生百万上下文，API 成本不到 Claude 的 1/10",
+      "categories": [
+        "writing",
+        "research",
+        "data"
+      ],
+      "model": [
+        "DeepSeek-V4",
+        "DeepSeek-V4 Pro"
+      ],
+      "pricing": {
+        "type": "freemium",
+        "label": "免费网页 / API 按量"
+      },
+      "language": [
+        "zh",
+        "en"
+      ],
+      "codex_score": {
+        "craft": 88,
+        "value": 98,
+        "overall": 91,
+        "utility": 94,
+        "reliability": 90
+      },
+      "url": "https://chat.deepseek.com",
+      "canonical": "https://www.okcodex.com/agents/deepseek-v3",
+      "review": null
+    },
+    {
+      "slug": "cursor",
+      "name": "Cursor",
+      "name_en": null,
+      "tagline": "编程能力最强的 AI IDE，把 Claude Opus 4.8 + GPT-5.5 装进编辑器",
+      "categories": [
+        "coding"
+      ],
+      "model": [
+        "Claude Opus 4.8",
+        "Claude Sonnet 4.6",
+        "GPT-5.5",
+        "Gemini 3 Pro"
+      ],
+      "pricing": {
+        "type": "freemium",
+        "label": "免费 / $20/月"
+      },
+      "language": [
+        "en",
+        "zh"
+      ],
+      "codex_score": {
+        "craft": 92,
+        "value": 88,
+        "overall": 94,
+        "utility": 97,
+        "reliability": 91
+      },
+      "url": "https://www.cursor.com",
+      "canonical": "https://www.okcodex.com/agents/cursor",
+      "review": {
+        "overall": 4.3,
+        "score_task": 4.8,
+        "score_quality": 4.6,
+        "score_speed": 4.5,
+        "score_chinese": 3.8,
+        "score_value": 4.0,
+        "score_reasons": null,
+        "one_liner": null,
+        "verdict": null,
+        "summary": "Cursor 是目前代码补全体验最完整的 AI IDE，深度集成 Claude 3.5 Sonnet，Tab 补全几乎达到「读心术」级别。多文件上下文理解远超 Copilot，Composer 功能可跨文件重构。唯一短板是订阅价格偏高（$20/月），且国内网络偶发延迟，中文注释理解略弱。",
+        "fit_for": null,
+        "not_fit_for": null,
+        "source_url": null,
+        "test_scenarios": [
+          "从零创建 FastAPI 项目",
+          "重构多文件结构",
+          "修复 TypeScript 类型错误",
+          "生成 pytest 测试套件"
+        ],
+        "tested_version": "0.50",
+        "reviewer": "OKCodex 编辑部",
+        "reviewed_at": "2026-06-14T11:46:58.145025+00:00"
+      }
+    },
+    {
+      "slug": "kimi-k2",
+      "name": "Kimi K2.6",
+      "name_en": "Kimi",
+      "tagline": "256K 上下文 + Agent Swarm，长文档理解与中文推理的国内新标杆",
+      "categories": [
+        "research",
+        "data",
+        "writing"
+      ],
+      "model": [
+        "Kimi K2.6",
+        "Kimi K2.7 Code",
+        "Moonshot"
+      ],
+      "pricing": {
+        "type": "freemium",
+        "label": "免费 / Pro ¥100/月"
+      },
+      "language": [
+        "zh",
+        "en"
+      ],
+      "codex_score": {
+        "craft": 85,
+        "value": 90,
+        "overall": 88,
+        "utility": 90,
+        "reliability": 87
+      },
+      "url": "https://kimi.moonshot.cn",
+      "canonical": "https://www.okcodex.com/agents/kimi-k2",
+      "review": null
+    },
+    {
+      "slug": "claude-sonnet",
+      "name": "Claude Opus 4.8",
+      "name_en": "Claude",
+      "tagline": "写作质量最强：长文章、分析报告、代码注释无出其右",
+      "categories": [
+        "writing",
+        "research",
+        "coding"
+      ],
+      "model": [
+        "Claude Opus 4.8",
+        "Claude Sonnet 4.6"
+      ],
+      "pricing": {
+        "type": "paid",
+        "label": "$20/月 / API 按量"
+      },
+      "language": [
+        "en",
+        "zh"
+      ],
+      "codex_score": {
+        "craft": 98,
+        "value": 76,
+        "overall": 93,
+        "utility": 90,
+        "reliability": 94
+      },
+      "url": "https://claude.ai",
+      "canonical": "https://www.okcodex.com/agents/claude-sonnet",
+      "review": null
+    },
+    {
+      "slug": "coze-cn",
+      "name": "扣子（Coze 国内版）",
+      "name_en": null,
+      "tagline": "字节跳动出品的 Agent 构建平台，80% 分成，最快上手",
+      "categories": [
+        "productivity",
+        "operations"
+      ],
+      "model": [
+        "豆包",
+        "MiniMax",
+        "GLM-5"
+      ],
+      "pricing": {
+        "type": "freemium",
+        "label": "免费 / 按用量付费"
+      },
+      "language": [
+        "zh"
+      ],
+      "codex_score": {
+        "craft": 78,
+        "value": 92,
+        "overall": 82,
+        "utility": 85,
+        "reliability": 80
+      },
+      "url": "https://www.coze.cn",
+      "canonical": "https://www.okcodex.com/agents/coze-cn",
+      "review": null
+    },
+    {
+      "slug": "qwen3-max",
+      "name": "Qwen3.7-Max",
+      "name_en": null,
+      "tagline": "阿里云通义千问旗舰版：百万上下文 + 超长程 Agent 执行",
+      "categories": [
+        "research",
+        "coding",
+        "data"
+      ],
+      "model": [
+        "Qwen3.7-Max",
+        "Qwen3.7-Plus"
+      ],
+      "pricing": {
+        "type": "freemium",
+        "label": "免费体验 / API 按量"
+      },
+      "language": [
+        "zh",
+        "en"
+      ],
+      "codex_score": {
+        "craft": 84,
+        "value": 89,
+        "overall": 86,
+        "utility": 88,
+        "reliability": 85
+      },
+      "url": "https://qwenlm.github.io",
+      "canonical": "https://www.okcodex.com/agents/qwen3-max",
+      "review": null
+    },
+    {
+      "slug": "perplexity",
+      "name": "Perplexity AI",
+      "name_en": null,
+      "tagline": "搜索 + 引用驱动的 AI 问答，事实核查必备",
+      "categories": [
+        "research"
+      ],
+      "model": [
+        "GPT-5.5",
+        "Claude Opus 4.8",
+        "Sonar"
+      ],
+      "pricing": {
+        "type": "freemium",
+        "label": "免费 / Pro $20/月"
+      },
+      "language": [
+        "en",
+        "zh"
+      ],
+      "codex_score": {
+        "craft": 80,
+        "value": 82,
+        "overall": 85,
+        "utility": 92,
+        "reliability": 88
+      },
+      "url": "https://www.perplexity.ai",
+      "canonical": "https://www.okcodex.com/agents/perplexity",
+      "review": null
+    },
+    {
+      "slug": "v0-vercel",
+      "name": "v0 by Vercel",
+      "name_en": null,
+      "tagline": "自然语言生成可运行的 React UI，前端原型最快路径",
+      "categories": [
+        "coding",
+        "creative"
+      ],
+      "model": [
+        "Claude Opus 4.8",
+        "GPT-5.5"
+      ],
+      "pricing": {
+        "type": "freemium",
+        "label": "免费 / Pro $20/月"
+      },
+      "language": [
+        "en"
+      ],
+      "codex_score": {
+        "craft": 90,
+        "value": 84,
+        "overall": 88,
+        "utility": 92,
+        "reliability": 84
+      },
+      "url": "https://v0.dev",
+      "canonical": "https://www.okcodex.com/agents/v0-vercel",
+      "review": null
+    },
+    {
+      "slug": "dify",
+      "name": "Dify",
+      "name_en": null,
+      "tagline": "开源 LLM 应用开发平台，100K+ GitHub Stars，自部署零锁定",
+      "categories": [
+        "coding",
+        "operations"
+      ],
+      "model": [
+        "DeepSeek-V4",
+        "Qwen3.7",
+        "Claude Opus 4.8",
+        "GPT-5.5",
+        "本地模型"
+      ],
+      "pricing": {
+        "type": "freemium",
+        "label": "开源免费 / Cloud 按量"
+      },
+      "language": [
+        "zh",
+        "en"
+      ],
+      "codex_score": {
+        "craft": 85,
+        "value": 95,
+        "overall": 87,
+        "utility": 90,
+        "reliability": 85
+      },
+      "url": "https://dify.ai",
+      "canonical": "https://www.okcodex.com/agents/dify",
+      "review": null
+    },
+    {
+      "slug": "manus",
+      "name": "Manus",
+      "name_en": null,
+      "tagline": "异步执行的全栈 Agent：让 AI 真正替你完成任务",
+      "categories": [
+        "browser",
+        "research",
+        "operations"
+      ],
+      "model": [
+        "Claude Opus 4.8",
+        "DeepSeek-V4"
+      ],
+      "pricing": {
+        "type": "paid",
+        "label": "邀请制 / 付费订阅"
+      },
+      "language": [
+        "zh",
+        "en"
+      ],
+      "codex_score": {
+        "craft": 82,
+        "value": 72,
+        "overall": 84,
+        "utility": 88,
+        "reliability": 78
+      },
+      "url": "https://manus.im",
+      "canonical": "https://www.okcodex.com/agents/manus",
+      "review": null
+    },
+    {
+      "slug": "tongyi-qianwen-agent",
+      "name": "通义千问 Agent",
+      "name_en": null,
+      "tagline": "阿里云生态 Agent：企业级工具调用 + 国内合规部署",
+      "categories": [
+        "operations",
+        "data"
+      ],
+      "model": [
+        "Qwen3.7-Max",
+        "Qwen3.7-Plus"
+      ],
+      "pricing": {
+        "type": "freemium",
+        "label": "免费体验 / 企业按量"
+      },
+      "language": [
+        "zh"
+      ],
+      "codex_score": {
+        "craft": 76,
+        "value": 84,
+        "overall": 79,
+        "utility": 82,
+        "reliability": 80
+      },
+      "url": "https://tongyi.aliyun.com",
+      "canonical": "https://www.okcodex.com/agents/tongyi-qianwen-agent",
+      "review": null
+    },
+    {
+      "slug": "glm-4",
+      "name": "智谱清言 GLM-5",
+      "name_en": null,
+      "tagline": "清华技术背景的中文 Agent，GLM-5.2 百万上下文，能力对标 Opus 4.8",
+      "categories": [
+        "research",
+        "writing",
+        "coding"
+      ],
+      "model": [
+        "GLM-5.2",
+        "GLM-5V"
+      ],
+      "pricing": {
+        "type": "freemium",
+        "label": "免费 / API 按量"
+      },
+      "language": [
+        "zh"
+      ],
+      "codex_score": {
+        "craft": 75,
+        "value": 86,
+        "overall": 78,
+        "utility": 80,
+        "reliability": 79
+      },
+      "url": "https://chatglm.cn",
+      "canonical": "https://www.okcodex.com/agents/glm-4",
+      "review": null
+    },
+    {
+      "slug": "doubao",
+      "name": "豆包",
+      "name_en": null,
+      "tagline": "字节跳动消费端 AI 助手，日活过亿的中文 Agent 产品",
+      "categories": [
+        "writing",
+        "creative",
+        "productivity"
+      ],
+      "model": [
+        "豆包大模型"
+      ],
+      "pricing": {
+        "type": "free",
+        "label": "免费"
+      },
+      "language": [
+        "zh"
+      ],
+      "codex_score": {
+        "craft": 70,
+        "value": 97,
+        "overall": 74,
+        "utility": 80,
+        "reliability": 76
+      },
+      "url": "https://www.doubao.com",
+      "canonical": "https://www.okcodex.com/agents/doubao",
+      "review": null
+    },
+    {
+      "slug": "gemini-15-pro",
+      "name": "Gemini 3 Pro",
+      "name_en": "Gemini 3 Pro",
+      "tagline": "百万级 Token 上下文 + Deep Think：大文件、长视频处理的首选",
+      "categories": [
+        "research",
+        "multimodal",
+        "data"
+      ],
+      "model": [
+        "Gemini 3 Pro"
+      ],
+      "pricing": {
+        "type": "freemium",
+        "label": "免费 / API 按量"
+      },
+      "language": [
+        "en",
+        "zh"
+      ],
+      "codex_score": {
+        "craft": 84,
+        "value": 80,
+        "overall": 87,
+        "utility": 92,
+        "reliability": 86
+      },
+      "url": "https://gemini.google.com",
+      "canonical": "https://www.okcodex.com/agents/gemini-15-pro",
+      "review": null
+    },
+    {
+      "slug": "okcodex-xuanti",
+      "name": "好码选题",
+      "name_en": "OKCodex Topic Agent",
+      "tagline": "为中文公众号量身定制的选题 Agent，30 秒生成 5 个有据可查的选题",
+      "categories": [
+        "writing",
+        "productivity"
+      ],
+      "model": [
+        "DeepSeek-V4",
+        "Qwen3.7-Max"
+      ],
+      "pricing": {
+        "type": "freemium",
+        "label": "免费试用 / Pro 无限"
+      },
+      "language": [
+        "zh"
+      ],
+      "codex_score": {
+        "craft": 85,
+        "value": 94,
+        "overall": 88,
+        "utility": 92,
+        "reliability": 86
+      },
+      "url": "/playground/xuanti",
+      "canonical": "https://www.okcodex.com/agents/okcodex-xuanti",
+      "review": null
+    },
+    {
+      "slug": "unitree-g1",
+      "name": "宇树 Unitree G1",
+      "name_en": "Unitree G1",
+      "tagline": "登上春晚的国产人形机器人，已上架 Amazon（$17,990），量产出货全球领先",
+      "categories": [
+        "robotics"
+      ],
+      "model": [
+        "具身智能控制栈"
+      ],
+      "pricing": {
+        "type": "paid",
+        "label": "$17,990 起"
+      },
+      "language": [
+        "zh",
+        "en"
+      ],
+      "codex_score": {
+        "craft": 88,
+        "value": 92,
+        "overall": 86,
+        "utility": 84,
+        "reliability": 82
+      },
+      "url": "https://www.unitree.com",
+      "canonical": "https://www.okcodex.com/agents/unitree-g1",
+      "review": null
+    },
+    {
+      "slug": "figure-03",
+      "name": "Figure 03",
+      "name_en": "Figure 03",
+      "tagline": "BotQ 工厂每小时下线 1 台，已在宝马产线按 $25/机器人小时商用计费",
+      "categories": [
+        "robotics"
+      ],
+      "model": [
+        "Helix 视觉-语言-动作模型"
+      ],
+      "pricing": {
+        "type": "enterprise",
+        "label": "企业部署 / 按机器人小时计费"
+      },
+      "language": [
+        "en"
+      ],
+      "codex_score": {
+        "craft": 89,
+        "value": 80,
+        "overall": 88,
+        "utility": 90,
+        "reliability": 84
+      },
+      "url": "https://www.figure.ai",
+      "canonical": "https://www.okcodex.com/agents/figure-03",
+      "review": null
+    },
+    {
+      "slug": "tesla-optimus",
+      "name": "Tesla Optimus Gen 3",
+      "name_en": null,
+      "tagline": "特斯拉停产 Model S/X 给它腾产线：第一款为大规模量产设计的人形机器人",
+      "categories": [
+        "robotics"
+      ],
+      "model": [
+        "FSD 神经网络栈"
+      ],
+      "pricing": {
+        "type": "enterprise",
+        "label": "未发售"
+      },
+      "language": [
+        "en"
+      ],
+      "codex_score": {
+        "craft": 88,
+        "value": 80,
+        "overall": 79,
+        "utility": 70,
+        "reliability": 75
+      },
+      "url": "https://www.tesla.com/optimus",
+      "canonical": "https://www.okcodex.com/agents/tesla-optimus",
+      "review": null
+    },
+    {
+      "slug": "1x-neo",
+      "name": "1X NEO",
+      "name_en": "1X NEO",
+      "tagline": "第一款进入家庭的人形机器人：已开放预订，2026 年末交付美国家庭",
+      "categories": [
+        "robotics"
+      ],
+      "model": [
+        "1X 端到端神经控制"
+      ],
+      "pricing": {
+        "type": "paid",
+        "label": "预订制"
+      },
+      "language": [
+        "en"
+      ],
+      "codex_score": {
+        "craft": 86,
+        "value": 82,
+        "overall": 80,
+        "utility": 78,
+        "reliability": 74
+      },
+      "url": "https://www.1x.tech",
+      "canonical": "https://www.okcodex.com/agents/1x-neo",
+      "review": null
+    },
+    {
+      "slug": "rayban-meta",
+      "name": "Ray-Ban Meta AI 眼镜",
+      "name_en": "Ray-Ban Meta",
+      "tagline": "卖得最好的 AI 硬件：Llama 4 加持的「Hey Meta」随身助手，2026 下半年冲千万台",
+      "categories": [
+        "hardware",
+        "voice",
+        "multimodal"
+      ],
+      "model": [
+        "Llama 4",
+        "Meta AI"
+      ],
+      "pricing": {
+        "type": "paid",
+        "label": "$299 起"
+      },
+      "language": [
+        "en"
+      ],
+      "codex_score": {
+        "craft": 88,
+        "value": 84,
+        "overall": 85,
+        "utility": 86,
+        "reliability": 84
+      },
+      "url": "https://www.ray-ban.com/usa/ray-ban-meta-ai-glasses",
+      "canonical": "https://www.okcodex.com/agents/rayban-meta",
+      "review": null
+    },
+    {
+      "slug": "plaud-note-pro",
+      "name": "Plaud Note Pro",
+      "name_en": null,
+      "tagline": "Forbes 2026 年度最佳 AI 可穿戴：会议/问诊/访谈的随身录音 + AI 纪要",
+      "categories": [
+        "hardware",
+        "productivity",
+        "voice"
+      ],
+      "model": [
+        "GPT-5.5",
+        "Claude Opus 4.8"
+      ],
+      "pricing": {
+        "type": "paid",
+        "label": "硬件 + 订阅"
+      },
+      "language": [
+        "zh",
+        "en"
+      ],
+      "codex_score": {
+        "craft": 84,
+        "value": 78,
+        "overall": 84,
+        "utility": 88,
+        "reliability": 85
+      },
+      "url": "https://www.plaud.ai",
+      "canonical": "https://www.okcodex.com/agents/plaud-note-pro",
+      "review": null
+    },
+    {
+      "slug": "jetson-thor",
+      "name": "NVIDIA Jetson Thor",
+      "name_en": null,
+      "tagline": "机器人大脑的事实标准：实时多传感器物理 AI 的边缘计算平台",
+      "categories": [
+        "hardware",
+        "data"
+      ],
+      "model": [
+        "Blackwell GPU",
+        "Isaac 平台"
+      ],
+      "pricing": {
+        "type": "enterprise",
+        "label": "开发套件 / 模组"
+      },
+      "language": [
+        "en"
+      ],
+      "codex_score": {
+        "craft": 88,
+        "value": 76,
+        "overall": 87,
+        "utility": 90,
+        "reliability": 88
+      },
+      "url": "https://developer.nvidia.com/embedded/jetson-thor",
+      "canonical": "https://www.okcodex.com/agents/jetson-thor",
+      "review": null
+    },
+    {
+      "slug": "github-copilot",
+      "name": "GitHub Copilot",
+      "name_en": null,
+      "tagline": "最早也最普及的 AI 编程助手，深度绑定 GitHub 工作流",
+      "categories": [
+        "coding"
+      ],
+      "model": [
+        "GPT-5.5",
+        "Claude Opus 4.8",
+        "Gemini 3 Pro"
+      ],
+      "pricing": {
+        "type": "freemium",
+        "label": "免费 / $10/月起"
+      },
+      "language": [
+        "en",
+        "zh"
+      ],
+      "codex_score": {
+        "craft": 86,
+        "value": 84,
+        "overall": 88,
+        "utility": 90,
+        "reliability": 90
+      },
+      "url": "https://github.com/features/copilot",
+      "canonical": "https://www.okcodex.com/agents/github-copilot",
+      "review": null
+    },
+    {
+      "slug": "windsurf",
+      "name": "Windsurf",
+      "name_en": null,
+      "tagline": "Agentic IDE：以 Cascade 为核心的自动化编码，Cursor 的主要对手",
+      "categories": [
+        "coding"
+      ],
+      "model": [
+        "Claude Opus 4.8",
+        "GPT-5.5",
+        "自研 SWE 模型"
+      ],
+      "pricing": {
+        "type": "freemium",
+        "label": "免费 / $15/月起"
+      },
+      "language": [
+        "en",
+        "zh"
+      ],
+      "codex_score": {
+        "craft": 84,
+        "value": 86,
+        "overall": 86,
+        "utility": 89,
+        "reliability": 85
+      },
+      "url": "https://windsurf.com",
+      "canonical": "https://www.okcodex.com/agents/windsurf",
+      "review": null
+    },
+    {
+      "slug": "notion-ai",
+      "name": "Notion AI",
+      "name_en": null,
+      "tagline": "把 AI 写进你的知识库：文档/会议/数据库一体的工作流助手",
+      "categories": [
+        "productivity",
+        "writing"
+      ],
+      "model": [
+        "GPT-5.5",
+        "Claude Opus 4.8"
+      ],
+      "pricing": {
+        "type": "paid",
+        "label": "$10/成员·月（附加项）"
+      },
+      "language": [
+        "en",
+        "zh"
+      ],
+      "codex_score": {
+        "craft": 82,
+        "value": 80,
+        "overall": 83,
+        "utility": 86,
+        "reliability": 84
+      },
+      "url": "https://www.notion.so/product/ai",
+      "canonical": "https://www.okcodex.com/agents/notion-ai",
+      "review": null
+    },
+    {
+      "slug": "gamma",
+      "name": "Gamma",
+      "name_en": null,
+      "tagline": "一句话生成演示稿/网页/文档，AI 排版做幻灯片最快的工具",
+      "categories": [
+        "productivity",
+        "creative"
+      ],
+      "model": [
+        "GPT-5.5"
+      ],
+      "pricing": {
+        "type": "freemium",
+        "label": "免费 / Plus $10/月"
+      },
+      "language": [
+        "en",
+        "zh"
+      ],
+      "codex_score": {
+        "craft": 83,
+        "value": 85,
+        "overall": 84,
+        "utility": 88,
+        "reliability": 82
+      },
+      "url": "https://gamma.app",
+      "canonical": "https://www.okcodex.com/agents/gamma",
+      "review": null
+    },
+    {
+      "slug": "midjourney",
+      "name": "Midjourney",
+      "name_en": null,
+      "tagline": "美学天花板的 AI 文生图，氛围感与质感几乎无对手",
+      "categories": [
+        "creative",
+        "multimodal"
+      ],
+      "model": [
+        "Midjourney V8.1"
+      ],
+      "pricing": {
+        "type": "paid",
+        "label": "$10/月起"
+      },
+      "language": [
+        "en"
+      ],
+      "codex_score": {
+        "craft": 96,
+        "value": 80,
+        "overall": 89,
+        "utility": 88,
+        "reliability": 86
+      },
+      "url": "https://www.midjourney.com",
+      "canonical": "https://www.okcodex.com/agents/midjourney",
+      "review": null
+    },
+    {
+      "slug": "runway",
+      "name": "Runway",
+      "name_en": null,
+      "tagline": "AI 视频生成的标杆，Gen 系列把短片创作门槛打下来",
+      "categories": [
+        "creative",
+        "multimodal"
+      ],
+      "model": [
+        "Gen-4.5",
+        "Gen-4"
+      ],
+      "pricing": {
+        "type": "freemium",
+        "label": "免费额度 / $15/月起"
+      },
+      "language": [
+        "en"
+      ],
+      "codex_score": {
+        "craft": 90,
+        "value": 80,
+        "overall": 86,
+        "utility": 87,
+        "reliability": 82
+      },
+      "url": "https://runwayml.com",
+      "canonical": "https://www.okcodex.com/agents/runway",
+      "review": null
+    },
+    {
+      "slug": "elevenlabs",
+      "name": "ElevenLabs",
+      "name_en": null,
+      "tagline": "最自然的 AI 语音合成与克隆，配音/有声书的事实标准",
+      "categories": [
+        "voice",
+        "creative"
+      ],
+      "model": [
+        "Eleven v3",
+        "Music v2"
+      ],
+      "pricing": {
+        "type": "freemium",
+        "label": "免费 / $5/月起"
+      },
+      "language": [
+        "en",
+        "zh"
+      ],
+      "codex_score": {
+        "craft": 92,
+        "value": 82,
+        "overall": 88,
+        "utility": 90,
+        "reliability": 86
+      },
+      "url": "https://elevenlabs.io",
+      "canonical": "https://www.okcodex.com/agents/elevenlabs",
+      "review": null
+    },
+    {
+      "slug": "suno",
+      "name": "Suno",
+      "name_en": null,
+      "tagline": "输入歌词与风格一键出歌，AI 音乐生成最出圈的产品",
+      "categories": [
+        "creative",
+        "voice"
+      ],
+      "model": [
+        "Suno v5.5"
+      ],
+      "pricing": {
+        "type": "freemium",
+        "label": "免费 / Pro $8/月起"
+      },
+      "language": [
+        "en",
+        "zh"
+      ],
+      "codex_score": {
+        "craft": 85,
+        "value": 84,
+        "overall": 84,
+        "utility": 88,
+        "reliability": 80
+      },
+      "url": "https://suno.com",
+      "canonical": "https://www.okcodex.com/agents/suno",
+      "review": null
+    },
+    {
+      "slug": "n8n",
+      "name": "n8n",
+      "name_en": null,
+      "tagline": "开源工作流自动化 + AI Agent 节点，可自托管的 Zapier 替代",
+      "categories": [
+        "operations",
+        "productivity"
+      ],
+      "model": [
+        "可接入任意 LLM"
+      ],
+      "pricing": {
+        "type": "freemium",
+        "label": "自托管免费 / 云端按量"
+      },
+      "language": [
+        "en",
+        "zh"
+      ],
+      "codex_score": {
+        "craft": 82,
+        "value": 90,
+        "overall": 85,
+        "utility": 90,
+        "reliability": 86
+      },
+      "url": "https://n8n.io",
+      "canonical": "https://www.okcodex.com/agents/n8n",
+      "review": null
+    },
+    {
+      "slug": "grammarly",
+      "name": "Grammarly",
+      "name_en": null,
+      "tagline": "英文写作纠错与润色的老牌标准，全平台随手可用",
+      "categories": [
+        "writing",
+        "productivity"
+      ],
+      "model": [
+        "自研 NLP",
+        "GPT-5.5"
+      ],
+      "pricing": {
+        "type": "freemium",
+        "label": "免费 / Pro $12/月起"
+      },
+      "language": [
+        "en"
+      ],
+      "codex_score": {
+        "craft": 82,
+        "value": 78,
+        "overall": 80,
+        "utility": 84,
+        "reliability": 88
+      },
+      "url": "https://www.grammarly.com",
+      "canonical": "https://www.okcodex.com/agents/grammarly",
+      "review": null
+    },
+    {
+      "slug": "openspec",
+      "name": "OpenSpec",
+      "name_en": "OpenSpec",
+      "tagline": "AI驱动的技术规范生成工具",
+      "categories": [
+        "coding",
+        "productivity"
+      ],
+      "model": [],
+      "pricing": {
+        "type": "free",
+        "label": "开源免费"
+      },
+      "language": [
+        "en"
+      ],
+      "codex_score": {
+        "craft": 70,
+        "value": 65,
+        "overall": 68,
+        "utility": 75,
+        "reliability": 60
+      },
+      "url": "https://github.com/Fission-AI/OpenSpec",
+      "canonical": "https://www.okcodex.com/agents/openspec",
+      "review": null
+    },
+    {
+      "slug": "page-agent",
+      "name": "Page Agent",
+      "name_en": "Page Agent",
+      "tagline": "阿里巴巴开源的网页自动化AI代理",
+      "categories": [
+        "browser",
+        "operations"
+      ],
+      "model": [
+        "未知"
+      ],
+      "pricing": {
+        "type": "free",
+        "label": "开源免费"
+      },
+      "language": [
+        "en",
+        "zh"
+      ],
+      "codex_score": {
+        "craft": 75,
+        "value": 70,
+        "overall": 72,
+        "utility": 80,
+        "reliability": 65
+      },
+      "url": "https://github.com/alibaba/page-agent",
+      "canonical": "https://www.okcodex.com/agents/page-agent",
+      "review": null
+    },
+    {
+      "slug": "openmontage",
+      "name": "OpenMontage",
+      "name_en": "OpenMontage",
+      "tagline": "开源AI蒙太奇视频生成工具",
+      "categories": [
+        "creative"
+      ],
+      "model": [],
+      "pricing": {
+        "type": "free",
+        "label": "免费开源"
+      },
+      "language": [
+        "en"
+      ],
+      "codex_score": {
+        "craft": 65,
+        "value": 80,
+        "overall": 68,
+        "utility": 70,
+        "reliability": 55
+      },
+      "url": "https://github.com/calesthio/OpenMontage",
+      "canonical": "https://www.okcodex.com/agents/openmontage",
+      "review": null
+    },
+    {
+      "slug": "ai-berkshire",
+      "name": "AI Berkshire",
+      "name_en": null,
+      "tagline": "AI驱动的伯克希尔投资分析工具",
+      "categories": [
+        "data",
+        "productivity"
+      ],
+      "model": [],
+      "pricing": {
+        "type": "free",
+        "label": "免费开源"
+      },
+      "language": [
+        "en"
+      ],
+      "codex_score": {
+        "craft": 70,
+        "value": 80,
+        "overall": 72,
+        "utility": 75,
+        "reliability": 65
+      },
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "canonical": "https://www.okcodex.com/agents/ai-berkshire",
+      "review": null
+    },
+    {
+      "slug": "gstack",
+      "name": "gstack",
+      "name_en": "gstack",
+      "tagline": "AI 驱动的全栈应用生成器",
+      "categories": [
+        "coding",
+        "productivity"
+      ],
+      "model": [],
+      "pricing": {
+        "type": "free",
+        "label": "免费开源"
+      },
+      "language": [
+        "en"
+      ],
+      "codex_score": {
+        "craft": 70,
+        "value": 75,
+        "overall": 72,
+        "utility": 80,
+        "reliability": 65
+      },
+      "url": "https://github.com/garrytan/gstack",
+      "canonical": "https://www.okcodex.com/agents/gstack",
+      "review": null
+    },
+    {
+      "slug": "mineru",
+      "name": "MinerU",
+      "name_en": "MinerU",
+      "tagline": "开源PDF文档解析与数据提取工具",
+      "categories": [
+        "data",
+        "productivity"
+      ],
+      "model": [
+        "自定义深度学习模型"
+      ],
+      "pricing": {
+        "type": "free",
+        "label": "免费开源"
+      },
+      "language": [
+        "zh",
+        "en"
+      ],
+      "codex_score": {
+        "craft": 75,
+        "value": 85,
+        "overall": 72,
+        "utility": 80,
+        "reliability": 65
+      },
+      "url": "https://github.com/opendatalab/MinerU",
+      "canonical": "https://www.okcodex.com/agents/mineru",
+      "review": null
+    },
+    {
+      "slug": "fundraisly",
+      "name": "Fundraisly",
+      "name_en": "Fundraisly",
+      "tagline": "AI融资代理，自动寻找投资者并预约会议",
+      "categories": [
+        "sales",
+        "operations"
+      ],
+      "model": [],
+      "pricing": {
+        "type": "freemium",
+        "label": "免费试用 / 付费订阅"
+      },
+      "language": [
+        "en"
+      ],
+      "codex_score": {
+        "craft": 70,
+        "value": 75,
+        "overall": 72,
+        "utility": 80,
+        "reliability": 65
+      },
+      "url": "https://www.producthunt.com/r/SH5BHT7UOKB2F5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+okcodex-discovery+%28ID%3A+289188%29",
+      "canonical": "https://www.okcodex.com/agents/fundraisly",
+      "review": null
+    },
+    {
+      "slug": "upstream",
+      "name": "Upstream",
+      "name_en": "Upstream",
+      "tagline": "为人类和AI代理设计的智能收件箱",
+      "categories": [
+        "productivity"
+      ],
+      "model": [],
+      "pricing": {
+        "type": "freemium",
+        "label": "免费 / $15/月"
+      },
+      "language": [
+        "en"
+      ],
+      "codex_score": {
+        "craft": 75,
+        "value": 70,
+        "overall": 72,
+        "utility": 80,
+        "reliability": 65
+      },
+      "url": "https://www.producthunt.com/r/RWE7MKUX4XZRYA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+okcodex-discovery+%28ID%3A+289188%29",
+      "canonical": "https://www.okcodex.com/agents/upstream",
+      "review": null
+    },
+    {
+      "slug": "bond",
+      "name": "Bond",
+      "name_en": null,
+      "tagline": "自动执行的AI待办清单",
+      "categories": [
+        "productivity"
+      ],
+      "model": [],
+      "pricing": {
+        "type": "freemium",
+        "label": "免费 / 付费版未公开"
+      },
+      "language": [
+        "en"
+      ],
+      "codex_score": {
+        "craft": 70,
+        "value": 75,
+        "overall": 72,
+        "utility": 78,
+        "reliability": 65
+      },
+      "url": "https://www.producthunt.com/r/7SFOLQBBWUEQXW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+okcodex-discovery+%28ID%3A+289188%29",
+      "canonical": "https://www.okcodex.com/agents/bond",
+      "review": null
+    },
+    {
+      "slug": "mailwarm-2-0",
+      "name": "Mailwarm 2.0",
+      "name_en": null,
+      "tagline": "邮件预热工具，提升投递率",
+      "categories": [
+        "operations",
+        "sales"
+      ],
+      "model": [],
+      "pricing": {
+        "type": "freemium",
+        "label": "免费试用 / $20/月起"
+      },
+      "language": [
+        "en"
+      ],
+      "codex_score": {
+        "craft": 70,
+        "value": 75,
+        "overall": 72,
+        "utility": 80,
+        "reliability": 65
+      },
+      "url": "https://www.producthunt.com/r/SO3HRZHWMYKPDS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+okcodex-discovery+%28ID%3A+289188%29",
+      "canonical": "https://www.okcodex.com/agents/mailwarm-2-0",
+      "review": null
+    },
+    {
+      "slug": "sellerclaw",
+      "name": "SellerClaw",
+      "name_en": "SellerClaw",
+      "tagline": "跨渠道店铺AI代理团队",
+      "categories": [
+        "operations",
+        "sales"
+      ],
+      "model": [],
+      "pricing": {
+        "type": "freemium",
+        "label": "免费试用 / 付费订阅"
+      },
+      "language": [
+        "en"
+      ],
+      "codex_score": {
+        "craft": 70,
+        "value": 75,
+        "overall": 72,
+        "utility": 80,
+        "reliability": 65
+      },
+      "url": "https://www.producthunt.com/r/7EVPIJ3T3Q6YW2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+okcodex-discovery+%28ID%3A+289188%29",
+      "canonical": "https://www.okcodex.com/agents/sellerclaw",
+      "review": null
+    },
+    {
+      "slug": "minimi",
+      "name": "minimi",
+      "name_en": "minimi",
+      "tagline": "Claude 的周边记忆助手",
+      "categories": [
+        "productivity"
+      ],
+      "model": [
+        "Claude"
+      ],
+      "pricing": {
+        "type": "free",
+        "label": "免费"
+      },
+      "language": [
+        "en"
+      ],
+      "codex_score": {
+        "craft": 60,
+        "value": 65,
+        "overall": 62,
+        "utility": 70,
+        "reliability": 55
+      },
+      "url": "https://www.producthunt.com/r/SIMPLUAHCBBLII?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+okcodex-discovery+%28ID%3A+289188%29",
+      "canonical": "https://www.okcodex.com/agents/minimi",
+      "review": null
+    },
+    {
+      "slug": "vc-boom",
+      "name": "VC Boom",
+      "name_en": null,
+      "tagline": "AI驱动的融资对接平台，优化路演材料并匹配投资者",
+      "categories": [
+        "sales",
+        "productivity"
+      ],
+      "model": [],
+      "pricing": {
+        "type": "freemium",
+        "label": "免费试用 / 付费订阅"
+      },
+      "language": [
+        "en"
+      ],
+      "codex_score": {
+        "craft": 65,
+        "value": 70,
+        "overall": 68,
+        "utility": 75,
+        "reliability": 60
+      },
+      "url": "https://www.producthunt.com/r/NEBXF32UWM4O4P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+okcodex-discovery+%28ID%3A+289188%29",
+      "canonical": "https://www.okcodex.com/agents/vc-boom",
+      "review": null
+    },
+    {
+      "slug": "gemini-notebook",
+      "name": "Gemini Notebook",
+      "name_en": "Gemini Notebook",
+      "tagline": "AI 笔记与研究助手，整合 Gemini 能力",
+      "categories": [
+        "research",
+        "productivity"
+      ],
+      "model": [
+        "Gemini"
+      ],
+      "pricing": {
+        "type": "free",
+        "label": "免费"
+      },
+      "language": [
+        "en"
+      ],
+      "codex_score": {
+        "craft": 80,
+        "value": 72,
+        "overall": 78,
+        "utility": 85,
+        "reliability": 75
+      },
+      "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
+      "canonical": "https://www.okcodex.com/agents/gemini-notebook",
+      "review": null
+    },
+    {
+      "slug": "microsoft-copilot-powerpoint",
+      "name": "Copilot in PowerPoint",
+      "name_en": null,
+      "tagline": "在 Microsoft 365 内从提示词或现有文件生成并继续编辑演示稿",
+      "categories": [
+        "productivity",
+        "creative"
+      ],
+      "model": [
+        "Microsoft 365 Copilot"
+      ],
+      "pricing": {
+        "type": "paid",
+        "label": "需 Microsoft 365 / Copilot 合资格订阅"
+      },
+      "language": [
+        "en",
+        "zh"
+      ],
+      "codex_score": {
+        "craft": 77,
+        "value": 70,
+        "overall": 80,
+        "utility": 85,
+        "reliability": 84
+      },
+      "url": "https://support.microsoft.com/en-gb/copilot-powerpoint",
+      "canonical": "https://www.okcodex.com/agents/microsoft-copilot-powerpoint",
+      "review": null
+    },
+    {
+      "slug": "qwen-audio-tts",
+      "name": "Qwen-Audio-TTS",
+      "name_en": null,
+      "tagline": "阿里云百炼的中文优先语音合成 API，覆盖实时、非实时与声音复刻",
+      "categories": [
+        "voice",
+        "creative"
+      ],
+      "model": [
+        "qwen-audio-3.0-tts-plus",
+        "qwen-audio-3.0-tts-flash"
+      ],
+      "pricing": {
+        "type": "paid",
+        "label": "API 按量（以百炼实时价目表为准）"
+      },
+      "language": [
+        "zh",
+        "en"
+      ],
+      "codex_score": {
+        "craft": 84,
+        "value": 86,
+        "overall": 84,
+        "utility": 88,
+        "reliability": 85
+      },
+      "url": "https://help.aliyun.com/zh/model-studio/tts-model",
+      "canonical": "https://www.okcodex.com/agents/qwen-audio-tts",
+      "review": null
+    }
+  ]
+}
