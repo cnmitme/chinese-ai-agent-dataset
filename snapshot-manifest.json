@@ -1,0 +1,15 @@
+{
+  "source": "https://www.okcodex.com/zh/dataset",
+  "generated_at": "2026-10-03T23:28:20.687450+00:00",
+  "schema_version": "okcodex.agent-evidence.v1",
+  "files": {
+    "agents.json": "ee1bdc80439980761cf050ebaca87138cb246e3de4d5d02c42a2c82960abb0be",
+    "agents.csv": "fb21843f8dc5e5177fafb31d0f7a9cb74ac953ab3c9a16081fea0022f4c616a6",
+    "comparisons.json": "97437bc150f82d2fdf63757503218168f00bbe0e1c024e7b0e464d92745b3a41",
+    "radar-demands.json": "430fe4a7e632c5648ff0b37950792bdc145af26737cb428b12fe7479c462f244",
+    "benchmarks.json": "19ac68e5c9548761602769c1ef17d7eb217155fdebe6efa49da6fcbe83766d11",
+    "README.md": "4bb452e026b3da64a0120e2ff4c240fdef9b3482ab6398225c4dc8f58727464a",
+    "SCHEMA.md": "0ec682ec7d0b36918e794e30c21a92b8877e64f7932488f2727295eb5404905e",
+    "LICENSE": "59a8c44ba6da8466aecb8f1bcffbfb8718d94c275ed6993a3286a0cff7e0d37c"
+  }
+}

@@ -7,117 +7,548 @@
     "license": "CC BY 4.0",
     "license_url": "https://creativecommons.org/licenses/by/4.0/",
     "attribution": "OKCodex (https://www.okcodex.com)",
-    "generated_at": "2026-07-24T12:17:14.104157+00:00",
-    "count": 6,
-    "week": "2026 W29（7 月 13–19 日）"
+    "generated_at": "2026-10-03T23:26:52.989793+00:00",
+    "count": 11,
+    "week": "2026 W40（9 月 28–4 日）"
   },
   "demands": [
     {
-      "id": 26,
-      "query": "AI代码审查工具",
-      "trend": "2 提及",
+      "id": 352,
+      "query": "安全合规需求",
+      "trend": "5 提及",
       "trend_up": true,
       "sources": [
-        "Ask HN"
+        "Ask HN",
+        "GitHub Issues",
+        "Hacker News",
+        "V2EX"
       ],
       "pain": [
-        "缺乏专门针对AI生成代码的审查流程和最佳实践",
-        "现有代码审查工具无法有效评估AI代码的正确性和安全性",
-        "现有代码审查流程未针对AI生成代码优化，效率低下"
+        "VSCode/Cursor 被诈骗者利用漏洞实施攻击，开发者环境面临风险",
+        "缺少针对 AI 代码编辑器漏洞的及时告警与可信防护手段",
+        "本地部署服务暴露公网却缺少二次验证，账号被盗风险高"
       ],
-      "matched_agents": [
-        {
-          "name": "DeepSeek-V3",
-          "slug": "deepseek-v3"
-        }
-      ],
-      "week_label": "2026 W29（7 月 13–19 日）",
-      "opportunity_score": 69.2,
+      "matched_agents": [],
+      "matched_tools": [],
+      "week_label": "2026 W40（9 月 28–4 日）",
+      "opportunity_score": 88.5,
       "score_breakdown": {
-        "demand_frequency": 0.5,
-        "sentiment_intensity": 1.0,
-        "cross_platform_consistency": 0.333,
-        "supply_scarcity": 1.0,
+        "demand_frequency": 0.815,
+        "sentiment_intensity": 0.8,
+        "cross_platform_consistency": 1,
+        "supply_scarcity": 1,
         "weights": {
           "demand_frequency": 0.35,
           "sentiment_intensity": 0.25,
           "cross_platform_consistency": 0.2,
           "supply_scarcity": 0.2
         },
+        "weight_proposal_id": null,
         "raw": {
-          "signal_count": 2,
-          "intense_count": 2,
+          "signal_count": 5,
+          "intense_count": 4,
           "distinct_sources": [
-            "hackernews_ask"
+            "github_issues",
+            "hackernews",
+            "hackernews_ask",
+            "v2ex"
           ],
           "distinct_origins": [
-            "news.ycombinator.com/ask"
+            "github.com/open-webui/open-webui",
+            "hackernews",
+            "news.ycombinator.com/ask",
+            "v2ex"
           ],
           "tier_one_signal_count": 2,
-          "max_source_share": 1.0,
+          "max_source_share": 0.4,
           "supply_count": 0
-        }
+        },
+        "match_status": "unmatched",
+        "degraded_reason": "unmatched"
       },
-      "signal_count": 2,
-      "distinct_platforms": 1,
-      "confidence_level": "single_source",
+      "signal_count": 5,
+      "distinct_platforms": 4,
+      "confidence_level": "multi_source_observation",
+      "match_status": "unmatched",
+      "degraded_reason": "unmatched",
       "evidence": [
         {
           "source": "hackernews_ask",
           "label": "Ask HN AI 需求",
-          "title": "Ask HN: How do you review AI code?",
-          "url": "https://news.ycombinator.com/item?id=48882310",
-          "observed_at": "2026-07-12T16:23:53+00:00",
+          "title": "Tell HN: VSCode/Cursor Exploit Actively Used by Scammers",
+          "url": "https://news.ycombinator.com/item?id=49931454",
+          "observed_at": "2026-10-02T09:13:37+00:00",
           "engagement": {
-            "points": 6,
-            "comments": 3
+            "points": 1,
+            "comments": 0
           }
         },
         {
-          "source": "hackernews_ask",
-          "label": "Ask HN AI 需求",
-          "title": "The Missed Reality: Code Review Wasn't Built for the AI Era",
-          "url": "https://news.ycombinator.com/item?id=48931713",
-          "observed_at": "2026-07-16T08:22:39+00:00",
+          "source": "github_issues",
+          "label": "GitHub AI 项目 Issues",
+          "title": "feat: 2FA/MFA TOTP support",
+          "url": "https://github.com/open-webui/open-webui/issues/1225",
+          "observed_at": "2024-03-20T02:21:59+00:00",
           "engagement": {
-            "points": 1,
-            "comments": 1
+            "comments": 46,
+            "reactions": 66,
+            "state": "open"
+          }
+        },
+        {
+          "source": "hackernews",
+          "label": "Hacker News 首页",
+          "title": "Greg Kroah-Hartman – Security in the LLM Age [video]",
+          "url": "https://www.youtube.com/watch?v=NnV_cWeoo5Q",
+          "observed_at": "2026-10-03T16:38:34.398821+00:00",
+          "engagement": {
+            "score": 286
+          }
+        },
+        {
+          "source": "hackernews",
+          "label": "Hacker News 首页",
+          "title": "US killer's sentence quashed because of AI video of victim shown in court",
+          "url": "https://www.bbc.com/news/articles/cwgkvygg5nzvo",
+          "observed_at": "2026-10-03T16:38:34.398821+00:00",
+          "engagement": {
+            "score": 40
+          }
+        },
+        {
+          "source": "v2ex",
+          "label": "V2EX AI / 开发节点",
+          "title": "在 VSCode Copilot 上用 Claude 模型会有风险吗？",
+          "url": "https://www.v2ex.com/t/1246226#reply5",
+          "observed_at": "2026-10-03T16:38:34.398821+00:00",
+          "engagement": {
+            "score": 91
           }
         }
       ]
     },
     {
-      "id": 25,
-      "query": "ChatGPT降智问题",
+      "id": 353,
+      "query": "内容创作需求",
+      "trend": "3 提及",
+      "trend_up": true,
+      "sources": [
+        "Ask HN",
+        "V2EX"
+      ],
+      "pain": [
+        "AI生成的低质内容泛滥，用户难以辨别并筛选出真实有价值的信息",
+        "独立开发者做出的免费小工具缺少推广渠道，很难触达真正需要的用户",
+        "技术论坛文章普遍带AI味，读者难以判断是人写还是模型生成"
+      ],
+      "matched_agents": [],
+      "matched_tools": [],
+      "week_label": "2026 W40（9 月 28–4 日）",
+      "opportunity_score": 80.4,
+      "score_breakdown": {
+        "demand_frequency": 0.631,
+        "sentiment_intensity": 1,
+        "cross_platform_consistency": 0.667,
+        "supply_scarcity": 1,
+        "weights": {
+          "demand_frequency": 0.35,
+          "sentiment_intensity": 0.25,
+          "cross_platform_consistency": 0.2,
+          "supply_scarcity": 0.2
+        },
+        "weight_proposal_id": null,
+        "raw": {
+          "signal_count": 3,
+          "intense_count": 3,
+          "distinct_sources": [
+            "hackernews_ask",
+            "v2ex"
+          ],
+          "distinct_origins": [
+            "news.ycombinator.com/ask",
+            "v2ex"
+          ],
+          "tier_one_signal_count": 1,
+          "max_source_share": 0.667,
+          "supply_count": 0
+        },
+        "match_status": "unmatched",
+        "degraded_reason": "unmatched"
+      },
+      "signal_count": 3,
+      "distinct_platforms": 2,
+      "confidence_level": "multi_source_observation",
+      "match_status": "unmatched",
+      "degraded_reason": "unmatched",
+      "evidence": [
+        {
+          "source": "hackernews_ask",
+          "label": "Ask HN AI 需求",
+          "title": "How do I promote an anti AI slop tool I built? It's free and genuine",
+          "url": "https://news.ycombinator.com/item?id=49872106",
+          "observed_at": "2026-09-28T00:08:00+00:00",
+          "engagement": {
+            "points": 2,
+            "comments": 2
+          }
+        },
+        {
+          "source": "v2ex",
+          "label": "V2EX AI / 开发节点",
+          "title": "你还会读所谓技术论坛上面的文章吗",
+          "url": "https://www.v2ex.com/t/1245655#reply6",
+          "observed_at": "2026-09-29T16:38:35.284950+00:00",
+          "engagement": {
+            "score": 100
+          }
+        },
+        {
+          "source": "v2ex",
+          "label": "V2EX AI / 开发节点",
+          "title": "发现市面上没有一个好看的 markdown 编辑工具，除了 mac 上的 ulysses.",
+          "url": "https://www.v2ex.com/t/1245619#reply7",
+          "observed_at": "2026-09-29T16:38:35.284950+00:00",
+          "engagement": {
+            "score": 97
+          }
+        }
+      ]
+    },
+    {
+      "id": 354,
+      "query": "图像设计需求",
+      "trend": "3 提及",
+      "trend_up": true,
+      "sources": [
+        "Ask HN",
+        "Hacker News",
+        "V2EX"
+      ],
+      "pain": [
+        "iCloud 照片数量庞大且重复杂乱，手动逐张筛选整理耗时耗力",
+        "缺少能用 LLM 自动识别照片内容并批量归类清理的成熟方案",
+        "大模型缺乏可视化画布交互，难以直接生成和修改图像"
+      ],
+      "matched_agents": [],
+      "matched_tools": [],
+      "week_label": "2026 W40（9 月 28–4 日）",
+      "opportunity_score": 78.8,
+      "score_breakdown": {
+        "demand_frequency": 0.631,
+        "sentiment_intensity": 0.667,
+        "cross_platform_consistency": 1,
+        "supply_scarcity": 1,
+        "weights": {
+          "demand_frequency": 0.35,
+          "sentiment_intensity": 0.25,
+          "cross_platform_consistency": 0.2,
+          "supply_scarcity": 0.2
+        },
+        "weight_proposal_id": null,
+        "raw": {
+          "signal_count": 3,
+          "intense_count": 2,
+          "distinct_sources": [
+            "hackernews",
+            "hackernews_ask",
+            "v2ex"
+          ],
+          "distinct_origins": [
+            "hackernews",
+            "news.ycombinator.com/ask",
+            "v2ex"
+          ],
+          "tier_one_signal_count": 1,
+          "max_source_share": 0.333,
+          "supply_count": 0
+        },
+        "match_status": "unmatched",
+        "degraded_reason": "unmatched"
+      },
+      "signal_count": 3,
+      "distinct_platforms": 3,
+      "confidence_level": "multi_source_observation",
+      "match_status": "unmatched",
+      "degraded_reason": "unmatched",
+      "evidence": [
+        {
+          "source": "hackernews_ask",
+          "label": "Ask HN AI 需求",
+          "title": "Ask HN: Organize and Cleanup iCloud Photos Using LLMs or GrokBot and Muse",
+          "url": "https://news.ycombinator.com/item?id=49925054",
+          "observed_at": "2026-10-01T18:09:11+00:00",
+          "engagement": {
+            "points": 1,
+            "comments": 1
+          }
+        },
+        {
+          "source": "hackernews",
+          "label": "Hacker News 首页",
+          "title": "Show HN: Giving Opus 5.5 a simulated paint canvas",
+          "url": "https://stillwet.art/",
+          "observed_at": "2026-10-03T16:38:34.398821+00:00",
+          "engagement": {
+            "score": 332
+          }
+        },
+        {
+          "source": "v2ex",
+          "label": "V2EX AI / 开发节点",
+          "title": "拼图接力，来说说什么是 AI 味",
+          "url": "https://www.v2ex.com/t/1246243#reply11",
+          "observed_at": "2026-10-03T16:38:34.398821+00:00",
+          "engagement": {
+            "score": 98
+          }
+        }
+      ]
+    },
+    {
+      "id": 355,
+      "query": "办公自动化需求",
+      "trend": "4 提及",
+      "trend_up": true,
+      "sources": [
+        "Ask HN",
+        "V2EX"
+      ],
+      "pain": [
+        "管理层强制员工使用AI工具，却未说明具体业务场景",
+        "员工缺乏培训与支持，导致抵触情绪和使用效果差",
+        "员工被要求在工作中使用AI聊天机器人，产生抵触与不信任情绪"
+      ],
+      "matched_agents": [],
+      "matched_tools": [],
+      "week_label": "2026 W40（9 月 28–4 日）",
+      "opportunity_score": 71.5,
+      "score_breakdown": {
+        "demand_frequency": 0.732,
+        "sentiment_intensity": 0.5,
+        "cross_platform_consistency": 0.667,
+        "supply_scarcity": 1,
+        "weights": {
+          "demand_frequency": 0.35,
+          "sentiment_intensity": 0.25,
+          "cross_platform_consistency": 0.2,
+          "supply_scarcity": 0.2
+        },
+        "weight_proposal_id": null,
+        "raw": {
+          "signal_count": 4,
+          "intense_count": 2,
+          "distinct_sources": [
+            "hackernews_ask",
+            "v2ex"
+          ],
+          "distinct_origins": [
+            "news.ycombinator.com/ask",
+            "v2ex"
+          ],
+          "tier_one_signal_count": 2,
+          "max_source_share": 0.5,
+          "supply_count": 0
+        },
+        "match_status": "unmatched",
+        "degraded_reason": "unmatched"
+      },
+      "signal_count": 4,
+      "distinct_platforms": 2,
+      "confidence_level": "multi_source_observation",
+      "match_status": "unmatched",
+      "degraded_reason": "unmatched",
+      "evidence": [
+        {
+          "source": "hackernews_ask",
+          "label": "Ask HN AI 需求",
+          "title": "Management is forcing us to use AI",
+          "url": "https://news.ycombinator.com/item?id=49873913",
+          "observed_at": "2026-09-28T05:11:12+00:00",
+          "engagement": {
+            "points": 10,
+            "comments": 15
+          }
+        },
+        {
+          "source": "hackernews_ask",
+          "label": "Ask HN AI 需求",
+          "title": "Fighting back against AI chatbots at work",
+          "url": "https://news.ycombinator.com/item?id=49908422",
+          "observed_at": "2026-09-30T13:08:17+00:00",
+          "engagement": {
+            "points": 7,
+            "comments": 2
+          }
+        },
+        {
+          "source": "v2ex",
+          "label": "V2EX AI / 开发节点",
+          "title": "[FormulaAI] 更新：新增 VBA 代码生成 + 免登录使用",
+          "url": "https://www.v2ex.com/t/1245914#reply1",
+          "observed_at": "2026-09-30T16:38:35.841876+00:00",
+          "engagement": {
+            "score": 98
+          }
+        },
+        {
+          "source": "v2ex",
+          "label": "V2EX AI / 开发节点",
+          "title": "蒸馏一个自己，替自己回消息吧",
+          "url": "https://www.v2ex.com/t/1245882#reply0",
+          "observed_at": "2026-09-30T16:38:35.841876+00:00",
+          "engagement": {
+            "score": 91
+          }
+        }
+      ]
+    },
+    {
+      "id": 347,
+      "query": "编程开发需求",
+      "trend": "8 提及",
+      "trend_up": true,
+      "sources": [
+        "Hacker News",
+        "V2EX"
+      ],
+      "pain": [
+        "用户关注 ChatGPT 生成站点的能力边界与部署流程",
+        "讨论热度高但缺少实际可用性与生成质量验证",
+        "多个编程智能体分散在不同平台，切换成本高，难以统一查看状态和结果。"
+      ],
+      "matched_agents": [],
+      "matched_tools": [
+        {
+          "slug": "model-advisor",
+          "name": "模型选型顾问",
+          "href": "/playground/tools/model-advisor"
+        }
+      ],
+      "week_label": "2026 W40（9 月 28–4 日）",
+      "opportunity_score": 71.5,
+      "score_breakdown": {
+        "demand_frequency": 1,
+        "sentiment_intensity": 0.125,
+        "cross_platform_consistency": 0.667,
+        "supply_scarcity": 1,
+        "weights": {
+          "demand_frequency": 0.35,
+          "sentiment_intensity": 0.25,
+          "cross_platform_consistency": 0.2,
+          "supply_scarcity": 0.2
+        },
+        "weight_proposal_id": null,
+        "raw": {
+          "signal_count": 8,
+          "intense_count": 1,
+          "distinct_sources": [
+            "hackernews",
+            "v2ex"
+          ],
+          "distinct_origins": [
+            "hackernews",
+            "v2ex"
+          ],
+          "tier_one_signal_count": 0,
+          "max_source_share": 0.75,
+          "supply_count": 0
+        },
+        "match_status": "unmatched",
+        "degraded_reason": "unmatched"
+      },
+      "signal_count": 8,
+      "distinct_platforms": 2,
+      "confidence_level": "multi_source_observation",
+      "match_status": "unmatched",
+      "degraded_reason": "unmatched",
+      "evidence": [
+        {
+          "source": "hackernews",
+          "label": "Hacker News 首页",
+          "title": "Sites in ChatGPT",
+          "url": "https://chatgpt.com/features/sites/",
+          "observed_at": "2026-10-03T16:38:34.398821+00:00",
+          "engagement": {
+            "score": 321
+          }
+        },
+        {
+          "source": "hackernews",
+          "label": "Hacker News 首页",
+          "title": "Show HN: Offrun – manage every coding agent from one workspace",
+          "url": "https://offrun.dev/",
+          "observed_at": "2026-10-03T16:38:34.398821+00:00",
+          "engagement": {
+            "score": 51
+          }
+        },
+        {
+          "source": "v2ex",
+          "label": "V2EX AI / 开发节点",
+          "title": "[开源] 我把《杀戮尖塔 2》移植到了网页端",
+          "url": "https://www.v2ex.com/t/1246312#reply2",
+          "observed_at": "2026-10-03T16:38:34.398821+00:00",
+          "engagement": {
+            "score": 100
+          }
+        },
+        {
+          "source": "v2ex",
+          "label": "V2EX AI / 开发节点",
+          "title": "GPT 6.1 秀",
+          "url": "https://www.v2ex.com/t/1246202#reply31",
+          "observed_at": "2026-10-03T16:38:34.398821+00:00",
+          "engagement": {
+            "score": 96
+          }
+        },
+        {
+          "source": "v2ex",
+          "label": "V2EX AI / 开发节点",
+          "title": "几句话，让 GPT-6.1 Sol 把一个开源口算游戏改造上线了",
+          "url": "https://www.v2ex.com/t/1246280#reply1",
+          "observed_at": "2026-10-03T16:38:34.398821+00:00",
+          "engagement": {
+            "score": 95
+          }
+        }
+      ]
+    },
+    {
+      "id": 348,
+      "query": "模型成本需求",
       "trend": "2 提及",
       "trend_up": true,
       "sources": [
         "V2EX"
       ],
       "pain": [
-        "更新最新版本后写代码能力严重下降，无法忍受",
-        "降智程度影响正常使用，体验极差",
-        "ChatGPT突然降智，所有模型秒回且回答质量差"
+        "ChatGPT Plus 五小时额度偏紧，重度使用常被打断，影响连续工作",
+        "各订阅额度规则不透明，难判断性价比，选订阅缺可靠参考",
+        "多家AI服务订阅叠加，每月支出偏高且难以统一管控"
       ],
-      "matched_agents": [
+      "matched_agents": [],
+      "matched_tools": [
         {
-          "name": "DeepSeek-V3",
-          "slug": "deepseek-v3"
+          "slug": "model-advisor",
+          "name": "模型选型顾问",
+          "href": "/playground/tools/model-advisor"
         }
       ],
-      "week_label": "2026 W29（7 月 13–19 日）",
+      "week_label": "2026 W40（9 月 28–4 日）",
       "opportunity_score": 69.2,
       "score_breakdown": {
         "demand_frequency": 0.5,
-        "sentiment_intensity": 1.0,
+        "sentiment_intensity": 1,
         "cross_platform_consistency": 0.333,
-        "supply_scarcity": 1.0,
+        "supply_scarcity": 1,
         "weights": {
           "demand_frequency": 0.35,
           "sentiment_intensity": 0.25,
           "cross_platform_consistency": 0.2,
           "supply_scarcity": 0.2
         },
+        "weight_proposal_id": null,
         "raw": {
           "signal_count": 2,
           "intense_count": 2,
@@ -128,154 +559,121 @@
             "v2ex"
           ],
           "tier_one_signal_count": 0,
-          "max_source_share": 1.0,
+          "max_source_share": 1,
           "supply_count": 0
-        }
+        },
+        "match_status": "unmatched",
+        "degraded_reason": "unmatched,single_source"
       },
       "signal_count": 2,
       "distinct_platforms": 1,
       "confidence_level": "single_source",
+      "match_status": "unmatched",
+      "degraded_reason": "unmatched,single_source",
       "evidence": [
         {
           "source": "v2ex",
           "label": "V2EX AI / 开发节点",
-          "title": "ChatGPT(Codex) 有降智吗？",
-          "url": "https://www.v2ex.com/t/1227415#reply1",
-          "observed_at": "2026-07-15T18:15:29.310344+00:00",
+          "title": "体感上， ChatGPT plus 5 小时额度少于 Claude pro",
+          "url": "https://www.v2ex.com/t/1246251#reply17",
+          "observed_at": "2026-10-03T16:38:34.398821+00:00",
           "engagement": {
-            "score": 94
+            "score": 99
           }
         },
         {
           "source": "v2ex",
           "label": "V2EX AI / 开发节点",
-          "title": "求助 ChatGPT 的 20x 账号，降智了问啥都秒回，怎么办",
-          "url": "https://www.v2ex.com/t/1227292#reply3",
-          "observed_at": "2026-07-14T18:04:54.492317+00:00",
+          "title": "闲来无事，梳理了下自己最近的 ai 订阅",
+          "url": "https://www.v2ex.com/t/1246264#reply15",
+          "observed_at": "2026-10-03T16:38:34.398821+00:00",
           "engagement": {
-            "score": 99
+            "score": 96
           }
         }
       ]
     },
     {
-      "id": 22,
-      "query": "AI编程学习成本",
-      "trend": "2 提及",
+      "id": 350,
+      "query": "工作流集成需求",
+      "trend": "6 提及",
       "trend_up": true,
       "sources": [
+        "Ask HN",
         "V2EX"
       ],
       "pain": [
-        "AI编程培训费用高达3万元，远超用户认知",
-        "部分AI从业者缺乏基础技术知识如CDN",
-        "AI编程工具普及后，传统编程基础知识的学习价值受到质疑，开发者感到迷茫"
+        "现有 AI 智能体使用门槛较高，用户希望更简单的方案",
+        "缺少对简化版智能体实际需求与适用场景的验证",
+        "大众普遍质疑 Personal AI Agent 是伪需求，缺乏可信的实际使用案例支撑"
       ],
-      "matched_agents": [
-        {
-          "name": "DeepSeek-V3",
-          "slug": "deepseek-v3"
-        }
-      ],
-      "week_label": "2026 W29（7 月 13–19 日）",
-      "opportunity_score": 69.2,
+      "matched_agents": [],
+      "matched_tools": [],
+      "week_label": "2026 W40（9 月 28–4 日）",
+      "opportunity_score": 68.5,
       "score_breakdown": {
-        "demand_frequency": 0.5,
-        "sentiment_intensity": 1.0,
-        "cross_platform_consistency": 0.333,
-        "supply_scarcity": 1.0,
+        "demand_frequency": 0.886,
+        "sentiment_intensity": 0.167,
+        "cross_platform_consistency": 0.667,
+        "supply_scarcity": 1,
         "weights": {
           "demand_frequency": 0.35,
           "sentiment_intensity": 0.25,
           "cross_platform_consistency": 0.2,
           "supply_scarcity": 0.2
         },
+        "weight_proposal_id": null,
         "raw": {
-          "signal_count": 2,
-          "intense_count": 2,
+          "signal_count": 6,
+          "intense_count": 1,
           "distinct_sources": [
+            "hackernews_ask",
             "v2ex"
           ],
+          "distinct_origins": [
+            "news.ycombinator.com/ask",
+            "v2ex"
+          ],
+          "tier_one_signal_count": 1,
+          "max_source_share": 0.833,
           "supply_count": 0
-        }
+        },
+        "match_status": "unmatched",
+        "degraded_reason": "unmatched"
       },
-      "signal_count": 2,
-      "distinct_platforms": 1,
-      "confidence_level": "legacy_single_source",
+      "signal_count": 6,
+      "distinct_platforms": 2,
+      "confidence_level": "multi_source_observation",
+      "match_status": "unmatched",
+      "degraded_reason": "unmatched",
       "evidence": [
         {
-          "source": "v2ex",
-          "label": "V2EX AI / 开发节点",
-          "title": "AI 时代，竟然有人要花 3 万去学 AI 编程",
-          "url": "https://www.v2ex.com/t/1226399#reply15",
-          "observed_at": "2026-07-10T18:45:58.538932+00:00",
+          "source": "hackernews_ask",
+          "label": "Ask HN AI 需求",
+          "title": "Would you use Hive-simpler AI agents?",
+          "url": "https://news.ycombinator.com/item?id=49941972",
+          "observed_at": "2026-10-03T06:58:53+00:00",
           "engagement": {
-            "score": 91
+            "points": 2,
+            "comments": 1
           }
         },
         {
           "source": "v2ex",
           "label": "V2EX AI / 开发节点",
-          "title": "AI 编程时代，不需要学习编程的基础知识和原理了？程序员应该怎么做？",
-          "url": "https://www.v2ex.com/t/1227032#reply10",
-          "observed_at": "2026-07-13T16:02:03.005425+00:00",
+          "title": "还有人说这波 Personal AI Agent 是伪需求？",
+          "url": "https://www.v2ex.com/t/1246315#reply0",
+          "observed_at": "2026-10-03T16:38:34.398821+00:00",
           "engagement": {
             "score": 99
           }
-        }
-      ]
-    },
-    {
-      "id": 18,
-      "query": "AI工具额度降低",
-      "trend": "2 提及",
-      "trend_up": true,
-      "sources": [
-        "V2EX"
-      ],
-      "pain": [
-        "GPT Plus额度感觉又降低了，使用受限",
-        "用户对现有AI工具的额度变化感到困惑和不满",
-        "Codex Pro20x周限从3000刀砍到1922刀，额度持续下降"
-      ],
-      "matched_agents": [
-        {
-          "name": "DeepSeek-V3",
-          "slug": "deepseek-v3"
-        }
-      ],
-      "week_label": "2026 W29（7 月 13–19 日）",
-      "opportunity_score": 69.2,
-      "score_breakdown": {
-        "demand_frequency": 0.5,
-        "sentiment_intensity": 1.0,
-        "cross_platform_consistency": 0.333,
-        "supply_scarcity": 1.0,
-        "weights": {
-          "demand_frequency": 0.35,
-          "sentiment_intensity": 0.25,
-          "cross_platform_consistency": 0.2,
-          "supply_scarcity": 0.2
         },
-        "raw": {
-          "signal_count": 2,
-          "intense_count": 2,
-          "distinct_sources": [
-            "v2ex"
-          ],
-          "supply_count": 0
-        }
-      },
-      "signal_count": 2,
-      "distinct_platforms": 1,
-      "confidence_level": "legacy_single_source",
-      "evidence": [
         {
           "source": "v2ex",
           "label": "V2EX AI / 开发节点",
-          "title": "问下大家现在都是用什么 ai ,今早怎么 gpt plus 额度感觉又降低了",
-          "url": "https://www.v2ex.com/t/1223565#reply10",
-          "observed_at": "2026-06-29T18:43:36.825117+00:00",
+          "title": "[分享创造] NetPulse：复制一句话给 AI Agent，让它把你所有 VPS 体检一遍",
+          "url": "https://www.v2ex.com/t/1246309#reply1",
+          "observed_at": "2026-10-03T16:38:34.398821+00:00",
           "engagement": {
             "score": 98
           }
@@ -283,145 +681,360 @@
         {
           "source": "v2ex",
           "label": "V2EX AI / 开发节点",
-          "title": "codex pro20x 周限砍到 2000 刀以下了",
-          "url": "https://www.v2ex.com/t/1225849#reply9",
-          "observed_at": "2026-07-08T18:07:20.775136+00:00",
+          "title": "[魔力工作台] 一个开源版 workbuddy 替代品",
+          "url": "https://www.v2ex.com/t/1246295#reply0",
+          "observed_at": "2026-10-03T16:38:34.398821+00:00",
           "engagement": {
-            "score": 96
+            "score": 97
+          }
+        },
+        {
+          "source": "v2ex",
+          "label": "V2EX AI / 开发节点",
+          "title": "AI 干活中，闲下来玩手机过久怎么办",
+          "url": "https://www.v2ex.com/t/1246246#reply9",
+          "observed_at": "2026-10-03T16:38:34.398821+00:00",
+          "engagement": {
+            "score": 94
           }
         }
       ]
     },
     {
-      "id": 17,
-      "query": "AI辅助服务器安全运维",
-      "trend": "2 提及",
+      "id": 356,
+      "query": "搜索研究需求",
+      "trend": "3 提及",
       "trend_up": true,
       "sources": [
+        "Ask HN",
         "V2EX"
       ],
       "pain": [
-        "服务器被植入挖矿病毒导致CPU持续100%占用，手动排查困难",
-        "需要快速定位病毒来源、分析特征码和矿池IP，传统方式耗时",
-        "发现Node网站因Next.js版本漏洞被利用，需自动检测和修复建议"
+        "老游戏停运多年且无源码流传，难以找到原版替代品",
+        "碎片截图、网页存档和论坛帖子分散，人工收集还原成本极高",
+        "AI 搜索回答不标注或弱化品牌来源，品牌方难以获得曝光与流量归属"
       ],
-      "matched_agents": [
+      "matched_agents": [],
+      "matched_tools": [
         {
-          "name": "DeepSeek-V3",
-          "slug": "deepseek-v3"
+          "slug": "model-advisor",
+          "name": "模型选型顾问",
+          "href": "/playground/tools/model-advisor"
         }
       ],
-      "week_label": "2026 W29（7 月 13–19 日）",
-      "opportunity_score": 56.7,
+      "week_label": "2026 W40（9 月 28–4 日）",
+      "opportunity_score": 63.8,
       "score_breakdown": {
-        "demand_frequency": 0.5,
-        "sentiment_intensity": 0.5,
-        "cross_platform_consistency": 0.333,
-        "supply_scarcity": 1.0,
+        "demand_frequency": 0.631,
+        "sentiment_intensity": 0.333,
+        "cross_platform_consistency": 0.667,
+        "supply_scarcity": 1,
         "weights": {
           "demand_frequency": 0.35,
           "sentiment_intensity": 0.25,
           "cross_platform_consistency": 0.2,
           "supply_scarcity": 0.2
         },
+        "weight_proposal_id": null,
         "raw": {
-          "signal_count": 2,
+          "signal_count": 3,
           "intense_count": 1,
           "distinct_sources": [
+            "hackernews_ask",
             "v2ex"
           ],
+          "distinct_origins": [
+            "news.ycombinator.com/ask",
+            "v2ex"
+          ],
+          "tier_one_signal_count": 2,
+          "max_source_share": 0.667,
           "supply_count": 0
-        }
+        },
+        "match_status": "unmatched",
+        "degraded_reason": "unmatched"
       },
-      "signal_count": 2,
-      "distinct_platforms": 1,
-      "confidence_level": "legacy_single_source",
+      "signal_count": 3,
+      "distinct_platforms": 2,
+      "confidence_level": "multi_source_observation",
+      "match_status": "unmatched",
+      "degraded_reason": "unmatched",
       "evidence": [
         {
           "source": "v2ex",
           "label": "V2EX AI / 开发节点",
-          "title": "昨天服务器中了挖矿病毒， cpu100% 下不去，最后让 codex 远程 ssh 上去硬刚！",
-          "url": "https://www.v2ex.com/t/1224687#reply26",
-          "observed_at": "2026-07-03T18:01:20.388227+00:00",
+          "title": "真灵已灭，从记忆长河中复活！让 AI 还原了以前小时候非常沉迷的一个放置类网页游戏《修真》",
+          "url": "https://www.v2ex.com/t/1245368#reply0",
+          "observed_at": "2026-09-28T16:38:34.882462+00:00",
           "engagement": {
             "score": 99
           }
         },
         {
-          "source": "v2ex",
-          "label": "V2EX AI / 开发节点",
-          "title": "昨天服务器中了挖矿病毒， cpu100% 下不去，最后让 codex 远程 ssh 上去硬刚！",
-          "url": "https://www.v2ex.com/t/1224687#reply27",
-          "observed_at": "2026-07-04T18:07:20.306979+00:00",
+          "source": "hackernews_ask",
+          "label": "Ask HN AI 需求",
+          "title": "Ask HN: Anyone noticed that Gemini is not giving credit to brands",
+          "url": "https://news.ycombinator.com/item?id=49907781",
+          "observed_at": "2026-09-30T12:15:59+00:00",
           "engagement": {
-            "score": 95
+            "points": 1,
+            "comments": 0
+          }
+        },
+        {
+          "source": "hackernews_ask",
+          "label": "Ask HN AI 需求",
+          "title": "Can AI Decipher the Indus Valley Script?",
+          "url": "https://news.ycombinator.com/item?id=49901168",
+          "observed_at": "2026-09-29T21:50:06+00:00",
+          "engagement": {
+            "points": 1,
+            "comments": 0
           }
         }
       ]
     },
     {
-      "id": 19,
-      "query": "Agent开发教程需求",
+      "id": 357,
+      "query": "教育培训需求",
       "trend": "2 提及",
       "trend_up": true,
       "sources": [
         "V2EX"
       ],
       "pain": [
-        "缺乏系统性的Harness Engineering学习资源",
-        "难以找到高质量的Agent开发入门教程",
-        "当前CLI工具暴露给Agent存在执行效率问题，需要更优的交互模式"
+        "想系统自学 AI 却不知从哪些网站入手，缺少清晰可靠的学习路径",
+        "vibe coding 等新方向资料分散，难以筛选出适合初学者的教程",
+        "新手拿到能持续工作的 AI 助手后，不知道第一件事该交给它做什么"
       ],
-      "matched_agents": [
-        {
-          "name": "DeepSeek-V3",
-          "slug": "deepseek-v3"
-        }
-      ],
-      "week_label": "2026 W29（7 月 13–19 日）",
+      "matched_agents": [],
+      "matched_tools": [],
+      "week_label": "2026 W40（9 月 28–4 日）",
       "opportunity_score": 56.7,
       "score_breakdown": {
         "demand_frequency": 0.5,
         "sentiment_intensity": 0.5,
         "cross_platform_consistency": 0.333,
-        "supply_scarcity": 1.0,
+        "supply_scarcity": 1,
         "weights": {
           "demand_frequency": 0.35,
           "sentiment_intensity": 0.25,
           "cross_platform_consistency": 0.2,
           "supply_scarcity": 0.2
         },
+        "weight_proposal_id": null,
         "raw": {
           "signal_count": 2,
           "intense_count": 1,
           "distinct_sources": [
             "v2ex"
           ],
+          "distinct_origins": [
+            "v2ex"
+          ],
+          "tier_one_signal_count": 0,
+          "max_source_share": 1,
           "supply_count": 0
-        }
+        },
+        "match_status": "unmatched",
+        "degraded_reason": "unmatched,single_source"
       },
       "signal_count": 2,
       "distinct_platforms": 1,
-      "confidence_level": "legacy_single_source",
+      "confidence_level": "single_source",
+      "match_status": "unmatched",
+      "degraded_reason": "unmatched,single_source",
       "evidence": [
         {
           "source": "v2ex",
           "label": "V2EX AI / 开发节点",
-          "title": "有没有比较好的 学习 Harness Engineering 或者 Agent 开发的教程",
-          "url": "https://www.v2ex.com/t/1223718#reply0",
-          "observed_at": "2026-06-29T18:43:36.825117+00:00",
+          "title": "求大家推荐一点自学 AI 的网站",
+          "url": "https://www.v2ex.com/t/1246266#reply10",
+          "observed_at": "2026-10-03T16:38:34.398821+00:00",
           "engagement": {
-            "score": 95
+            "score": 100
           }
         },
         {
           "source": "v2ex",
           "label": "V2EX AI / 开发节点",
-          "title": "为什么在 2026 年， Agent 更适合 Heredoc 式执行，而非 REPL 式交互？",
-          "url": "https://www.v2ex.com/t/1227024#reply0",
-          "observed_at": "2026-07-13T16:02:03.005425+00:00",
+          "title": "做了个 ChatGPT《Dot 小绿皮书》，已开源",
+          "url": "https://www.v2ex.com/t/1246162#reply9",
+          "observed_at": "2026-10-03T16:38:34.398821+00:00",
+          "engagement": {
+            "score": 94
+          }
+        }
+      ]
+    },
+    {
+      "id": 351,
+      "query": "本地部署需求",
+      "trend": "3 提及",
+      "trend_up": true,
+      "sources": [
+        "Hacker News"
+      ],
+      "pain": [
+        "希望在 macOS 和 Windows 上以桌面应用方式直接调用 DeepSeek 模型，减少命令行与网页端来回切换",
+        "现有本地模型桌面客户端安装配置繁琐、跨平台体验不一致，普通用户上手门槛高",
+        "德语场景缺少高性能开放权重模型，选型困难"
+      ],
+      "matched_agents": [],
+      "matched_tools": [
+        {
+          "slug": "model-advisor",
+          "name": "模型选型顾问",
+          "href": "/playground/tools/model-advisor"
+        }
+      ],
+      "week_label": "2026 W40（9 月 28–4 日）",
+      "opportunity_score": 48.7,
+      "score_breakdown": {
+        "demand_frequency": 0.631,
+        "sentiment_intensity": 0,
+        "cross_platform_consistency": 0.333,
+        "supply_scarcity": 1,
+        "weights": {
+          "demand_frequency": 0.35,
+          "sentiment_intensity": 0.25,
+          "cross_platform_consistency": 0.2,
+          "supply_scarcity": 0.2
+        },
+        "weight_proposal_id": null,
+        "raw": {
+          "signal_count": 3,
+          "intense_count": 0,
+          "distinct_sources": [
+            "hackernews"
+          ],
+          "distinct_origins": [
+            "hackernews"
+          ],
+          "tier_one_signal_count": 0,
+          "max_source_share": 1,
+          "supply_count": 0
+        },
+        "match_status": "unmatched",
+        "degraded_reason": "unmatched,single_source"
+      },
+      "signal_count": 3,
+      "distinct_platforms": 1,
+      "confidence_level": "single_source",
+      "match_status": "unmatched",
+      "degraded_reason": "unmatched,single_source",
+      "evidence": [
+        {
+          "source": "hackernews",
+          "label": "Hacker News 首页",
+          "title": "DeepSeek Harness Desktop for macOS and Windows",
+          "url": "https://www.deepseek.com/en/harness/",
+          "observed_at": "2026-10-02T16:38:40.567337+00:00",
+          "engagement": {
+            "score": 358
+          }
+        },
+        {
+          "source": "hackernews",
+          "label": "Hacker News 首页",
+          "title": "Kolibri is an open-weight LLM from Aleph Alpha for German and English",
+          "url": "https://tej.as/blog/aleph-alpha-kolibri",
+          "observed_at": "2026-10-03T16:38:34.398821+00:00",
+          "engagement": {
+            "score": 306
+          }
+        },
+        {
+          "source": "hackernews",
+          "label": "Hacker News 首页",
+          "title": "From the creator of Redis; run LLM locally with ds4",
+          "url": "https://dwarfstar.sh/",
+          "observed_at": "2026-10-03T16:38:34.398821+00:00",
+          "engagement": {
+            "score": 302
+          }
+        }
+      ]
+    },
+    {
+      "id": 349,
+      "query": "视频音频需求",
+      "trend": "3 提及",
+      "trend_up": true,
+      "sources": [
+        "V2EX"
+      ],
+      "pain": [
+        "双人 AI 视频创作需自行摸索提示词与参数，上手门槛偏高",
+        "缺少现成的照片转双人表演类短视频模板，创作效率低",
+        "现有视频剪辑工具功能复杂，普通人难以快速把两位主角放进同一舞台"
+      ],
+      "matched_agents": [],
+      "matched_tools": [],
+      "week_label": "2026 W40（9 月 28–4 日）",
+      "opportunity_score": 48.7,
+      "score_breakdown": {
+        "demand_frequency": 0.631,
+        "sentiment_intensity": 0,
+        "cross_platform_consistency": 0.333,
+        "supply_scarcity": 1,
+        "weights": {
+          "demand_frequency": 0.35,
+          "sentiment_intensity": 0.25,
+          "cross_platform_consistency": 0.2,
+          "supply_scarcity": 0.2
+        },
+        "weight_proposal_id": null,
+        "raw": {
+          "signal_count": 3,
+          "intense_count": 0,
+          "distinct_sources": [
+            "v2ex"
+          ],
+          "distinct_origins": [
+            "v2ex"
+          ],
+          "tier_one_signal_count": 0,
+          "max_source_share": 1,
+          "supply_count": 0
+        },
+        "match_status": "unmatched",
+        "degraded_reason": "unmatched,single_source"
+      },
+      "signal_count": 3,
+      "distinct_platforms": 1,
+      "confidence_level": "single_source",
+      "match_status": "unmatched",
+      "degraded_reason": "unmatched,single_source",
+      "evidence": [
+        {
+          "source": "v2ex",
+          "label": "V2EX AI / 开发节点",
+          "title": "做了个小工具，上传两张照片，让你和朋友出演 APT. 风格短视频",
+          "url": "https://www.v2ex.com/t/1246182#reply0",
+          "observed_at": "2026-10-02T16:38:40.567337+00:00",
+          "engagement": {
+            "score": 100
+          }
+        },
+        {
+          "source": "v2ex",
+          "label": "V2EX AI / 开发节点",
+          "title": "把朋友和猫放到同一个舞台会怎样？我做了个双人 AI 视频小工具",
+          "url": "https://www.v2ex.com/t/1246159#reply0",
+          "observed_at": "2026-10-02T16:38:40.567337+00:00",
           "engagement": {
             "score": 96
+          }
+        },
+        {
+          "source": "v2ex",
+          "label": "V2EX AI / 开发节点",
+          "title": "分享一个文字/图片转短视频工具，也想听听大家怎么判断素材能不能用",
+          "url": "https://www.v2ex.com/t/1246253#reply0",
+          "observed_at": "2026-10-03T16:38:34.398821+00:00",
+          "engagement": {
+            "score": 91
           }
         }
       ]
