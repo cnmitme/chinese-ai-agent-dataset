@@ -1,15 +1,22 @@
 {
   "source": "https://www.okcodex.com/zh/dataset",
-  "generated_at": "2026-10-03T23:28:20.687450+00:00",
+  "captured_at": "2026-10-17T01:56:17.934781+00:00",
   "schema_version": "okcodex.agent-evidence.v1",
+  "source_generated_at": {
+    "agents.json": "2026-10-17T01:20:03.772713+00:00",
+    "comparisons.json": "2026-10-17T01:49:36.789024+00:00",
+    "radar-demands.json": "2026-10-17T01:49:36.796676+00:00",
+    "benchmarks.json": "2026-10-17T01:49:36.740131+00:00"
+  },
   "files": {
-    "agents.json": "ee1bdc80439980761cf050ebaca87138cb246e3de4d5d02c42a2c82960abb0be",
-    "agents.csv": "fb21843f8dc5e5177fafb31d0f7a9cb74ac953ab3c9a16081fea0022f4c616a6",
-    "comparisons.json": "97437bc150f82d2fdf63757503218168f00bbe0e1c024e7b0e464d92745b3a41",
-    "radar-demands.json": "430fe4a7e632c5648ff0b37950792bdc145af26737cb428b12fe7479c462f244",
-    "benchmarks.json": "19ac68e5c9548761602769c1ef17d7eb217155fdebe6efa49da6fcbe83766d11",
-    "README.md": "4bb452e026b3da64a0120e2ff4c240fdef9b3482ab6398225c4dc8f58727464a",
+    "agents.json": "02a9b021db6e69f65d92d441a43af08c09de8931389c401bd82529b5243a35da",
+    "agents.csv": "26879fe947815a9d6a2b5a5c04f8fcb93af8b22583e92ecc6592f0f278a3826e",
+    "comparisons.json": "dc5c7008a7b2d1184a34198ba613dfac0e59bca8514a0fa43a0dfb3df62e1820",
+    "radar-demands.json": "d8b91c0f2ba34cacf9d069014de89633e937483a223757b15dc5843b7f90e1df",
+    "benchmarks.json": "36a0cb38b01b00b4eaa0f28f0ef3789749f0078f21553c73d621f3ac94bf76c5",
+    "README.md": "534a280b9d0765ad1f97d7f7f841562aa9eb1b5051c12f36011ec35c1c01faa8",
     "SCHEMA.md": "0ec682ec7d0b36918e794e30c21a92b8877e64f7932488f2727295eb5404905e",
     "LICENSE": "59a8c44ba6da8466aecb8f1bcffbfb8718d94c275ed6993a3286a0cff7e0d37c"
-  }
+  },
+  "generated_at": "2026-10-17T01:20:03.772713+00:00"
 }
