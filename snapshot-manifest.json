@@ -14,9 +14,11 @@
     "comparisons.json": "dc5c7008a7b2d1184a34198ba613dfac0e59bca8514a0fa43a0dfb3df62e1820",
     "radar-demands.json": "d8b91c0f2ba34cacf9d069014de89633e937483a223757b15dc5843b7f90e1df",
     "benchmarks.json": "36a0cb38b01b00b4eaa0f28f0ef3789749f0078f21553c73d621f3ac94bf76c5",
-    "README.md": "534a280b9d0765ad1f97d7f7f841562aa9eb1b5051c12f36011ec35c1c01faa8",
+    "README.md": "4f7ef695a0ea854f3248b118b0156f2124013d4c4b4bfa41ef4c9f673e808f03",
     "SCHEMA.md": "0ec682ec7d0b36918e794e30c21a92b8877e64f7932488f2727295eb5404905e",
     "LICENSE": "59a8c44ba6da8466aecb8f1bcffbfb8718d94c275ed6993a3286a0cff7e0d37c"
   },
-  "generated_at": "2026-10-17T01:20:03.772713+00:00"
+  "generated_at": "2026-10-17T01:20:03.772713+00:00",
+  "documentation_updated_at": "2026-10-19T12:32:44.291941+00:00",
+  "documentation_note": "README adds a free synthetic workflow example; dataset capture and measurement dates unchanged. Example files are outside this dataset snapshot manifest."
 }
